@@ -1,0 +1,41 @@
+name: moviezz
+description: "Flutter Movie App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  cached_network_image: ^3.2.3
+  flutter_svg: ^2.0.7
+  provider: ^6.1.2
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - ./assets/images/
+
+  fonts:
+    - family: RacingSansOne
+      fonts:
+        - asset: assets/fonts/RacingSansOne-Regular.ttf
+          weight: 400
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo_movie_1.png"
+
