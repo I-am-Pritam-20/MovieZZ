@@ -1,5 +1,5 @@
-# Flutter Movie App
-(Not a Netflix Clone)
+# Moviezz (Flutter)
+Movie Streaming App Using Flutter (Not a Netflix Clone)
 
 ## Overview
 This Flutter application showcases movies using the [TVMaze API](https://api.tvmaze.com). The app includes the following features:
